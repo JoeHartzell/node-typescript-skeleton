@@ -18,5 +18,7 @@ $ gulp build
 This project provides 3 default commands. 
 
 `$ gulp clean`: cleans the dist directory
+
 `$ gulp compile`: compiles the typscript
+
 `$ gulp build`: runs clean then compile
