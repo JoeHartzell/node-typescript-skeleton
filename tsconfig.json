@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "target": "es6",
+        "strict": true,
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "dist",
+        "baseUrl": ".",
+        "experimentalDecorators": true,
+        "paths": {
+            "*": [
+                "node_modules/*",
+                "lib/types/*"
+            ]
+        },
+        "lib": [
+            "dom",
+            "es6"
+        ],
+        "suppressImplicitAnyIndexErrors": true,
+    },
+    "include": [
+        "lib/**/*"
+    ],
+    "exclude": [
+        "node_modules/*"
+    ]
+}
